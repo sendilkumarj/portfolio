@@ -74,7 +74,7 @@
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
 						<div class="container">
-
+                                <canvas id="myCanvas"></canvas>
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
 								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
@@ -219,6 +219,30 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+        <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+        <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+        <script>
+            var myName = "Sendil";
 
+            var red = [0, 100, 63];
+            var orange = [40, 100, 60];
+            var green = [75, 100, 40];
+            var blue = [196, 77, 55];
+            var purple = [280, 50, 60];
+            var letterColors = [red, orange, green, blue, purple];
+
+            drawName(myName, letterColors);
+
+            if(10 < 3)
+            {
+                bubbleShape = 'square';
+            }
+            else
+            {
+                bubbleShape = 'circle';
+            }
+
+            bounceBubbles();
+        </script>
 	</body>
 </html>
