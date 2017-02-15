@@ -1,0 +1,31 @@
+/*Styles used for body*/
+
+body {
+    background-color: #E8E8E8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+
+/*Styles used for left column*/
+
+.leftColumn {
+    background: #201931;
+
+}
+
+
+/*Styles used for main content container*/
+
+.mainContainer {
+    flex-grow: 2;
+}
+
+.introBg {
+    background-color: #FF8181;
+    height: 50vh;
+    max-height: 50vh;
+}
