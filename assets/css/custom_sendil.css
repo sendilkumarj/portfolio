@@ -1,12 +1,105 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+}
+
+
+/* Tablets, iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+    .mainContainer {
+        height: 395px;
+        width: 700px;
+    }
+    .leftColumn {
+        height: 395px;
+        width: 198px;
+    }
+}
+
+
+/* Tablets, iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+
+/* Tablets, iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+    .container{
+        flex-direction: column !important;
+    }
+    .mainContainer {
+        height: 395px;
+        width: 700px;
+    }
+    .leftColumn {
+        height: 395px;
+        width: 198px;
+    }
+
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+    /*Styles used for main content container*/
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* Styles */
+}
+
+
+/* iPhone 4 ----------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* here come styles from mobile-retina.css */
+}
+
+
+/* End main CSS file */
+
+
 /*Styles used for body*/
 
-body {
-    background-color: #E8E8E8;
+.container {
     display: flex;
+    background-color: #E8E8E8;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    -webkit-align-items: center;
 }
 
 
@@ -14,18 +107,8 @@ body {
 
 .leftColumn {
     background: #201931;
-
-}
-
-
-/*Styles used for main content container*/
-
-.mainContainer {
-    flex-grow: 2;
 }
 
 .introBg {
     background-color: #FF8181;
-    height: 50vh;
-    max-height: 50vh;
 }
