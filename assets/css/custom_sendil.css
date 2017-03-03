@@ -71,21 +71,36 @@
 /* Desktops and laptops ----------- */
 
 /* 1024x600, 1024x786*/
-@media only screen and (min-width: 1024px) and (max-width: 1365px;) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
     /* Styles */
     /*Styles used for main content container*/
     .mainContainer {
         height: 395px;
-        width: 1000px;
+        width: 800px;
     }
     .leftColumn {
         height: 395px;
-        width: 250px;
+        width: 198px;
+    }
+}
+
+/* 1280x800, 1366x768 */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    /* Styles */
+    /*Styles used for main content container*/
+    .mainContainer {
+        height: 495px;
+        width: 900px;
+    }
+    .leftColumn {
+        height: 395px;
+        width: 198px;
     }
 }
 
 
-@media only screen and (min-width: 1224px) {
+
+@media only screen and (min-width: 1440px) {
     /* Styles */
     /*Styles used for main content container*/
     .mainContainer {
