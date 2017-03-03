@@ -38,6 +38,14 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     /* Styles */
+    .mainContainer {
+        height: 395px;
+        width: 700px;
+    }
+    .leftColumn {
+        height: 395px;
+        width: 198px;
+    }
 }
 
 
@@ -65,6 +73,14 @@
 @media only screen and (min-width: 1224px) {
     /* Styles */
     /*Styles used for main content container*/
+    .mainContainer {
+        height: 495px;
+        width: 1000px;
+    }
+    .leftColumn {
+        height: 495px;
+        width: 250px;
+    }
 }
 
 
@@ -72,6 +88,14 @@
 
 @media only screen and (min-width: 1824px) {
     /* Styles */
+        .mainContainer {
+        height: 900px;
+        width: 2000px;
+    }
+    .leftColumn {
+        height: 900px;
+        width: 400px;
+    }
 }
 
 
