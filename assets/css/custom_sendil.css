@@ -21,8 +21,8 @@
 
 /* Tablets, iPads (portrait and landscape) ----------- */
 
+/*
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1223px) {
-    /* Styles */
     .mainContainer {
         height: 395px;
         width: 700px;
@@ -31,12 +31,12 @@
         height: 395px;
         width: 198px;
     }
-}
+}*/
 
 
 /* Tablets, iPads (landscape) ----------- */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     /* Styles */
     .mainContainer {
         height: 395px;
@@ -51,7 +51,7 @@
 
 /* Tablets, iPads (portrait) ----------- */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     /* Styles */
     .container{
         flex-direction: column !important;
@@ -69,6 +69,21 @@
 
 
 /* Desktops and laptops ----------- */
+
+/* 1024x600, 1024x786*/
+@media only screen and (min-width: 1024px) and (max-width: 1365px;) {
+    /* Styles */
+    /*Styles used for main content container*/
+    .mainContainer {
+        height: 395px;
+        width: 1000px;
+    }
+    .leftColumn {
+        height: 395px;
+        width: 250px;
+    }
+}
+
 
 @media only screen and (min-width: 1224px) {
     /* Styles */
