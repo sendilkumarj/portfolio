@@ -1,7 +1,20 @@
 /* Smartphones (portrait and landscape) ----------- */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
     /* Styles */
+    .container {
+        flex-direction: column !important;
+    }
+    .leftColumn {
+        height: 230px;
+        width: 400px;
+        margin-bottom: 1%;
+    }
+    .mainContainer {
+        height: 50px;
+        width: 400px;
+        margin-top: 1%;
+    }
 }
 
 
@@ -60,7 +73,7 @@
         flex-direction: column !important;
     }
     .mainContainer {
-        height: 395px;
+        height: 900px;
         width: 700px;
     }
     .leftColumn {
