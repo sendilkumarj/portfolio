@@ -79,12 +79,12 @@
     /* Styles */
     /*Styles used for main content container*/
     .mainContainer {
-        height: 395px;
+        height: 495px;
         width: 700px;
         margin-left: 1%;
     }
     .leftColumn {
-        height: 395px;
+        height: 495px;
         width: 198px;
         margin-right: 1%;
     }
@@ -103,7 +103,7 @@
     }
     .leftColumn {
         height: 495px;
-        width: 198px;
+        width: 220px;
         margin-right: 1%;
     }
 }
