@@ -41,7 +41,7 @@
 
 @media only screen and (max-device-width: 320px) {
     /* Styles */
-    .container {
+/*    .container {
         flex-direction: column !important;
     }
     .leftColumn {
@@ -53,7 +53,7 @@
         height: 50px;
         width: 400px;
         margin-top: 1%;
-    }
+    }*/
 }
 
 
@@ -106,7 +106,42 @@
         width: 700px;
     }
 }
+/* iPhone 4 ----------- */
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+    .container {
+        flex-direction: column !important;
+    }
+    .leftColumn {
+        height: 230px;
+        width: 400px;
+        margin-bottom: 1%;
+    }
+    .mainContainer {
+        height: 50px;
+        width: 400px;
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* here come styles from mobile-retina.css */
+    .container {
+        flex-direction: column !important;
+    }
+    .leftColumn {
+        height: 230px;
+        width: 400px;
+        margin-bottom: 1%;
+    }
+    .mainContainer {
+        height: 50px;
+        width: 400px;
+        margin-top: 1%;
+    }
+}
 
 /* Desktops and laptops ----------- */
 
@@ -177,19 +212,6 @@
         margin-right: 1%;
     }
 }
-
-
-/* iPhone 4 ----------- */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-    /* Styles */
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    /* here come styles from mobile-retina.css */
-}
-
 
 /* End main CSS file */
 
