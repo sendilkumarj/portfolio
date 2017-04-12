@@ -5,13 +5,13 @@
         flex-direction: column !important;
     }
     .leftColumn {
-        height: 230px;
-        width: 400px;
+        height: 50px;
+        width: 450px;
         margin-bottom: 1%;
     }
     .mainContainer {
-        height: 50px;
-        width: 400px;
+        height: 100vh;
+        width: 450px;
         margin-top: 1%;
     }
 }
