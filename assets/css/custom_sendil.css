@@ -130,12 +130,12 @@ only screen and (min-device-pixel-ratio: 1.5) {
         flex-direction: column !important;
     }
     .leftColumn {
-        height: 230px;
+        height: 50px;
         width: 400px;
         margin-bottom: 1%;
     }
     .mainContainer {
-        height: 50px;
+        height: 100vh;
         width: 400px;
         margin-top: 1%;
     }
@@ -147,12 +147,12 @@ only screen and (min-device-pixel-ratio: 1.5) {
         flex-direction: column !important;
     }
     .leftColumn {
-        height: 230px;
+        height: 50px;
         width: 400px;
         margin-bottom: 1%;
     }
     .mainContainer {
-        height: 50px;
+        height: 100vh;
         width: 400px;
         margin-top: 1%;
     }
