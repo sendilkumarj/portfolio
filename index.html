@@ -10,47 +10,52 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <link rel="shortcut icon" href=""> </head>
-<!-- Latest compiled and minified CSS -->
-<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-<!-- Optional theme -->
-<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+<link rel="stylesheet" href="assets/lib/loading-bar/loading-bar.css">
+<link rel="stylesheet" href="assets/lib/angularjs-toaster/toaster.min.css">
 <link rel="stylesheet" href="assets/css/custom_sendil.css" />
 
 <body>
     <div class="container">
-    <div class="leftColumn">
-        <div class="top">
-            <!-- Logo -->
-            <div id="logo"> <!--<span class="image avatar48"><img src="images/avatar.jpg" alt="Sendil" /></span>-->
-                <h1 id="title">Sendil Kumar J</h1>
-                <p>{ UI Lead }</p>
+        <div class="leftColumn">
+            <div class="top">
+                <!-- Logo -->
+                <div id="logo">
+                    <!--<span class="image avatar48"><img src="images/avatar.jpg" alt="Sendil" /></span>-->
+                    <h1 id="title">Sendil Kumar J</h1>
+                    <p>{ UI Lead }</p>
+                </div>
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
+                        <li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
+                        <li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
+                        <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
+                    </ul>
+                </nav>
             </div>
-            <!-- Nav -->
-            <nav id="nav">
-                <ul>
-                    <li><a href="#top" id="top-link" ><span class="icon fa-home">Intro</span></a></li>
-                    <li><a href="#portfolio" id="portfolio-link" ><span class="icon fa-th">Portfolio</span></a></li>
-                    <li><a href="#about" id="about-link" ><span class="icon fa-user">About Me</span></a></li>
-                    <li><a href="#contact" id="contact-link" ><span class="icon fa-envelope">Contact</span></a></li>
+            <div class="bottom">
+                <!-- Social Icons -->
+                <ul class="icons">
+                    <li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="" class="icon fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="" class="icon fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
-        <div class="bottom">
-            <!-- Social Icons -->
-            <ul class="icons">
-                <li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="" class="icon fa-github"><span class="label">Github</span></a></li>
-                <li><a href="" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                <li><a href="" class="icon fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-        </div>
+        <!-- Main -->
+        <div class="mainContainer introBg">&nbsp; </div>
     </div>
-    <!-- Main -->
-    <div class="mainContainer introBg">&nbsp; </div>
-        </div>
-    <!-- Latest compiled and minified JavaScript -->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+    <script type="text/javascript" src="assets/lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="assets/lib/angular/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="assets/lib/angular/angular-cookies.js"></script>
+    <script type="text/javascript" src="assets/lib/angular/browser.js"></script>
+    <script type="text/javascript" src="assets/lib/angular-idle/angular-idle.min.js"></script>
+    <script type="text/javascript" src="assets/lib/loading-bar/loading-bar.min.js"></script>
+    <script type="text/javascript" src="assets/lib/angularjs-toaster/toaster.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-animate.min.js"></script>
 </body>
 
 </html>
