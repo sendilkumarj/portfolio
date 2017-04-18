@@ -15,7 +15,7 @@
         margin-top: 1%;
     }
 }
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) {
+/*@media only screen and (min-device-width: 320px) and (max-device-height: 640px) {
 
     .container {
         flex-direction: column !important;
@@ -30,7 +30,7 @@
         width: 450px;
         margin-top: 1%;
     }
-}
+}*/
 
 /* Smartphones (landscape) ----------- */
 
