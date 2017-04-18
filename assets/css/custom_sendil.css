@@ -15,7 +15,7 @@
         margin-top: 1%;
     }
 }
-/*@media only screen and (min-device-width: 320px) and (max-device-height: 640px) {
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) {
 
     .container {
         flex-direction: column !important;
@@ -30,7 +30,7 @@
         width: 450px;
         margin-top: 1%;
     }
-}*/
+}
 
 /* Smartphones (landscape) ----------- */
 
@@ -113,7 +113,7 @@
         flex-direction: column !important;
     }
     .mainContainer {
-        height: 900px;
+        height: 100vh;
         width: 700px;
     }
     .leftColumn {
@@ -124,7 +124,7 @@
 /* iPhone 4 ----------- */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) and (max-device-width: 500px) {
+only screen and (min-device-pixel-ratio: 1.5) and (min-device-width: 320px) {
     /* Styles */
     .container {
         flex-direction: column !important;
