@@ -124,7 +124,7 @@
 /* iPhone 4 ----------- */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) and (max-device-width: 480px) {
+only screen and (min-device-pixel-ratio: 1.5) {
     /* Styles */
     .container {
         flex-direction: column !important;
