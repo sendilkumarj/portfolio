@@ -6,17 +6,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <!--<link rel="stylesheet" href="assets/css/main.css" />-->
+    <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <link rel="shortcut icon" href=""> </head>
-<link rel="stylesheet" href="assets/lib/loading-bar/loading-bar.css">
+<!--<link rel="stylesheet" href="assets/assets/lib/loading-bar/loading-bar.css">-->
 <link rel="stylesheet" href="assets/lib/angularjs-toaster/toaster.min.css">
 <link rel="stylesheet" href="assets/css/custom_sendil.css" />
+<script src="assets/lib/jquery/jquery.js"></script>
 
 <body>
     <div class="container">
-        <div class="leftColumn">
+        <div class="leftColumn" id="header">
             <div class="top">
                 <!-- Logo -->
                 <div id="logo">
@@ -46,14 +47,19 @@
             </div>
         </div>
         <!-- Main -->
-        <div class="mainContainer introBg">&nbsp; </div>
+        <div class="mainContainer introBg" id="main">&nbsp; </div>
     </div>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/lib/angular/angular.min.js"></script>
     <script type="text/javascript" src="assets/lib/angular/angular-ui-router.min.js"></script>
     <script type="text/javascript" src="assets/lib/angular/angular-cookies.js"></script>
     <script type="text/javascript" src="assets/lib/angular/browser.js"></script>
     <script type="text/javascript" src="assets/lib/angular-idle/angular-idle.min.js"></script>
-    <script type="text/javascript" src="assets/lib/loading-bar/loading-bar.min.js"></script>
+    <!--<script type="text/javascript" src="assets/lib/loading-bar/loading-bar.min.js"></script>-->
     <script type="text/javascript" src="assets/lib/angularjs-toaster/toaster.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-animate.min.js"></script>
 </body>
