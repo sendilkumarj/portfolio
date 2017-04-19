@@ -1983,15 +1983,15 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #312450 url("images/overlay.png");
+		/*background: #312450 url("images/overlay.png");*/
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
-		height: 100%;
-		left: 0;
+		/*height: 100%;
+		left: 0;*/
 		overflow-y: auto;
-		position: fixed;
+		/*position: fixed;*/
 		text-align: right;
-		top: 0;
+		/*top: 0;*/
 		width: 375px;
 	}
 
@@ -2136,7 +2136,7 @@
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		/*margin-left: 375px;*/
 	}
 
 		#main > section {
@@ -2219,7 +2219,7 @@
 		/* Main */
 
 			#main {
-				margin-left: 300px;
+				/*margin-left: 300px;*/
 			}
 
 	}
